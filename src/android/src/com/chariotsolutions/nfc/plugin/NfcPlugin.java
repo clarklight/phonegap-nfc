@@ -74,7 +74,7 @@ public class NfcPlugin extends CordovaPlugin implements NfcAdapter.OnNdefPushCom
 
     @Override
     public boolean execute(String action, JSONArray data, CallbackContext callbackContext) throws JSONException {
-this is the test that i am putting in to see if the code is wrong would it mess up the plugin upload process
+
         Log.d(TAG, "execute " + action);
 
         if (!getNfcStatus().equals(STATUS_NFC_OK)) {
